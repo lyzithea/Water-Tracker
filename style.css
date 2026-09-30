@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(211, 235, 238);
+     margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.water-info {
+    margin-bottom: 20px;
+}
+
+button, details, select{
+     cursor: pointer;
+}
+
+a {
+  background-color: #94c6e7;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+}
+
+a:hover {
+ border: 2px solid black;
+}
+
+button {
+  background-color: #94c6e7;
+  margin: 10px 0px 10px 0px;
+  border: 2px solid transparent;
+  padding: 8px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+    border: 2px solid black;
+    
+}
+
+nav {
+   width: 100%;
+
+    background-color: rgb(195, 216, 219);
+    border-bottom: 2px solid #94c6e7;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    padding: 15px 0;
+    margin-bottom: 25px;
+  
+}
+
+summary {
+  background-color: #94c6e7;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  border: 0px solid black;
+  font-weight: bold;
+  width: 200px;
+ 
+}
+
+.water-text {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.water-info details {
+    width: 100%;
+}
+
+.water-info summary {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.water-text {
+    line-height: 1.5;
+    text-align: left;
+    margin: 20px auto 0;
+    border: 5px solid #94c6e7;
+    border-radius: 10px;
+    background-color: rgb(205, 229, 231);
+    padding: 10px;
+    cursor: text;
+}
+
+#goalEntry {
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px auto 0;
+    border: 5px solid #94c6e7;
+    border-radius: 10px;
+    background-color: rgb(205, 229, 231);
+    padding: 10px;
+    width: 130px;
+    height: 25px;
+    font-weight: bold;
+
+}
+
+.next {
+  margin: 50px;
+  text-align: center;
+}
+
+.next p {
+  margin-bottom: 30px;
+}
+
+.daily-goal {
+  text-align: center;
+  
+}
+
+select {
+  
+  line-height: 1.5;
+    text-align: left;
+    margin: 20px auto 0;
+    border: 5px solid #94c6e7;
+    border-radius: 10px;
+    background-color: rgb(205, 229, 231);
+    padding: 5px;
+    cursor: pointer;
+}
+
+#goal-display {
+  font-weight: bold;
+}
+
+#water-tracking {
+ text-align: center;
+  
+}
+
+.tracking-text {
+    line-height: 1.5;
+    text-align: left;
+    margin: 20px auto 0;
+    border: 5px solid #94c6e7;
+    border-radius: 10px;
+    background-color: rgb(205, 229, 231);
+    padding: 10px;
+    cursor: text;
+    width: 400px;
+    max-width: 600px;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+
+#tracking-buttons {
+   display: flex;
+    justify-content: center;
+    gap: 25px;
+   
+}
+
+#cupButton, #glassButton, #bottleButton {
+    width: 90px;
+    height: 80px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 50px;
+}
+
+.capacity-area {
+    height: 70px;
+}
+
+#water-glass {
+    width: 150px;
+    height: 300px;
+
+    border: 5px solid #94c6e7;
+    border-top: none;
+
+    border-radius: 0 0 30px 30px;
+
+    display: flex;
+    align-items: flex-end;
+
+    /*Verhindert, dass das "Wasser" über das Glas hinausragt*/
+    overflow: hidden;
+}
+
+#water-fill {
+    width: 100%;
+    height: 0%;
+    background-color: #94c6e7;
+
+    /*Bestimmt in welcher Geschwindigkeit die Anzeige gefüllt wird*/
+    transition: height 0.5s ease;
+}
+
+.tracker-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+}
+
+.tracker-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+  margin-bottom: 100px;
+}
+
+#trackingFunction {
+  margin-bottom: 200px;
+}
+
+#resetButton {
+ margin-top: 20px;
+}
